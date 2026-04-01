@@ -1,0 +1,54 @@
+name: beam
+description: AI-powered document assistant for scanning, storing, and interacting with documents.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # State Management
+  provider: ^6.1.0
+
+  # UI Components
+  cupertino_icons: ^1.0.6
+
+  # Utilities
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+  http: ^1.2.0
+
+  # Camera & Image Processing
+  camera: ^0.10.5+9
+  image_picker: ^1.0.4
+
+  # PDF
+  pdf: ^3.10.7
+  flutter_pdfview: ^1.3.2
+
+  # File System
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
